@@ -27,6 +27,31 @@ Product framing, operating structure, and public proof surfaces that keep the wo
 - execution logic
 - sensitive product details
 
+## ByRedLanternOS
+
+| Field | Detail |
+| --- | --- |
+| When | 2025 to 2026 |
+| Where | RedLantern Studios |
+| Type | Product |
+| Follow up | Tie to studio proof and repo artifacts |
+
+### What it is
+A multi tenant operations platform.
+
+### What I handled
+Product framing, operating structure, and public proof surfaces.
+
+### Public proof
+- studio product overview
+- stack list
+- release safe copy
+
+### Private boundary
+- tenant logic
+- internal workflows
+- product level moat
+
 ## SwarmClaw
 
 | Field | Detail |

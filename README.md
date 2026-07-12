@@ -71,6 +71,7 @@ Rule: if a claim is not tied to a time, place, type, and follow up, it should be
 | Showcase | What it covers |
 | --- | --- |
 | [RedLantern Studios](./CASE_STUDIES.md#redlantern-studios) | Studio operating layer |
+| [ByRedLanternOS](./CASE_STUDIES.md#byredlanternos) | Multi tenant operations platform |
 | [SwarmClaw](./CASE_STUDIES.md#swarmclaw) | RedLantern Build Team |
 | [The Lantern Daily](./CASE_STUDIES.md#the-lantern-daily) | Public publication |
 | [Amina](./CASE_STUDIES.md#amina) | Companion product |
