@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="./assets/redlantern-studios-logo.png" alt="RedLantern Studios" width="112" />
+<img src="./assets/redlantern-studios-logo.png" alt="RedLantern Studios" width="120" />
 
 # Rory Semeah
 
 **AI Technical Product Manager · RedLantern Studios**
 
-<p>Executive level proof layer. Fast to scan. Easy to trust. Built like a familiar dashboard. 🧭</p>
+<p>Executive proof layer. Fast to read. Easy to trust. Built like a clean dashboard. 🧭</p>
 
 <p>
   <a href="./index.html">Live page</a> ·
@@ -24,28 +24,37 @@
 
 </div>
 
-## Story
-
-I build enterprise systems, AI enabled products, and workflow automation that ship in the real world.
-The thread through all of it is the same: clarify the problem, protect the moat, ship with receipts.
-
 ## Snapshot
 
-| Area | Status |
-| --- | --- |
-| Role | AI Technical Product Manager |
-| Studio | RedLantern Studios |
-| Geography | San Diego, CA |
-| Mode | Public proof, private moat |
+| Area | Status | Signal |
+| --- | --- | --- |
+| Role | AI Technical Product Manager | 🟢 Clear ownership |
+| Studio | RedLantern Studios | 🔥 Brand anchored |
+| Geography | San Diego, CA | 🌴 Based in market |
+| Mode | Public proof, private moat | 🔒 IP protected |
 
 ## KPI board
 
-| KPI | Meaning |
+| KPI | What it says |
 | --- | --- |
 | 60 country rollout | Enterprise scale delivery across SAP and billing systems |
 | 20 plus countries | OpenAI powered automation shipped into live operations |
 | 1000 plus tickets cleared | Support workflow redesign that got real work unstuck |
 | 4 live products | Studio, companion, learning, and career proof surfaces |
+
+### Delivery bars
+
+| Area | Signal |
+| --- | --- |
+| Enterprise rollout | ██████████ 100 |
+| AI automation | █████████░ 90 |
+| Product breadth | ████████░░ 80 |
+| IP discipline | ██████████ 100 |
+
+## Story
+
+I build enterprise systems, AI enabled products, and workflow automation that ship in the real world.
+The thread through all of it is the same: clarify the problem, protect the moat, ship with receipts.
 
 ## Resume spine
 
@@ -68,7 +77,20 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 - Keep communication plain, direct, and useful
 - Keep IP boundaries tight
 
-## Logo board
+## Selected proof
+
+<table>
+  <tr>
+    <td><strong>🔥 RedLantern Studios</strong><br>Studio operating layer, branded workflows, and product coordination.</td>
+    <td><strong>🧠 Amina</strong><br>Faith centered AI product with web and iOS surfaces, release discipline, and public proof artifacts.</td>
+  </tr>
+  <tr>
+    <td><strong>📿 Authentic Hadith</strong><br>Production learning platform with web and mobile delivery, QA evidence, and release readiness work.</td>
+    <td><strong>💼 HireWire</strong><br>AI career platform focused on matching, resume intelligence, and confidence based routing.</td>
+  </tr>
+</table>
+
+## Brand board
 
 <p>
   <img alt="SAP" src="https://img.shields.io/badge/SAP-111111?style=for-the-badge&logo=sap&logoColor=white" />
@@ -91,17 +113,6 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 - SAFe Scaled Agile Framework
 - Certified Scrum Master
 - CPMAI in progress
-
-## Selected proof
-
-### RedLantern Studios
-Studio operating layer, branded workflows, and product coordination.
-
-### Ingram Micro
-Enterprise platforms, billing systems, and AI workflow automation.
-
-### loanDepot
-Support workflow redesign that cleared a 1,000 plus ticket backlog.
 
 ## IP boundary
 
