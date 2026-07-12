@@ -66,6 +66,19 @@ Rule: if a claim is not tied to a time, place, type, and follow up, it should be
 | Support recovery | 1000 plus tickets cleared by workflow redesign |
 | Public proof | 4 live products with a private moat |
 
+## Showcase index
+
+| Showcase | What it covers |
+| --- | --- |
+| [RedLantern Studios](./CASE_STUDIES.md#redlantern-studios) | Studio layer, operating shape, and public proof |
+| [SwarmClaw](./CASE_STUDIES.md#swarmclaw) | RedLantern Build Team and QuietBuild OS |
+| [The Lantern Daily](./CASE_STUDIES.md#the-lantern-daily) | Public publication and narrative alignment |
+| [Amina](./CASE_STUDIES.md#amina) | Companion product and release discipline |
+| [HireWire](./CASE_STUDIES.md#hirewire) | Career product and signal based routing |
+| [Authentic Hadith](./CASE_STUDIES.md#authentic-hadith) | iOS release and proof surfaces |
+| [Ingram Micro](./CASE_STUDIES.md#ingram-micro) | Enterprise rollout and workflow automation |
+| [loanDepot](./CASE_STUDIES.md#loandepot) | Support workflow cleanup and operations |
+
 ## Story
 
 I build enterprise systems, products, and workflow automation that ship in the real world.
