@@ -67,7 +67,7 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 ### Products
 - ByRedLanternOS, multi tenant operations platform built on Next.js, Supabase, Vercel, and Anthropic API
 - Amina, AI companion and productivity product across web and iOS
-- SwarmClaw, the QuietBuild OS layer for multi agent orchestration, routing, and handoff
+- SwarmClaw, the RedLantern Build Team and QuietBuild OS layer for orchestration, routing, and handoff
 - HireWire, AI career product with matching, resume intelligence, and confidence based routing
 - Authentic Hadith, iOS app shipped through TestFlight QA and App Store approval
 
@@ -79,16 +79,16 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 
 ## QuietBuild OS
 
-SwarmClaw is the coordination layer that keeps the studio moving without chaos. It is the quiet operator behind the scenes, used for routing, receipts, and clean handoff between work streams.
+SwarmClaw is the RedLantern Build Team. It runs the quiet operator layer behind the studio, keeping routing, receipts, and handoff clean while the actual work moves forward.
 
 ### Agent roster
 
 | Agent | Role | Style |
 | --- | --- | --- |
-| SwarmClaw | Orchestrator | Routes work to the right lane |
-| Claudex Bridge | Memory and handoff | Keeps state synced and receipted |
-| Robby PA | Intake and dispatch | Filters repeat asks and sends them to the right place |
-| Obsidian | Working memory | Stores decisions, context, and truth |
+| SwarmClaw | Build lead | Routes work to the right lane and keeps the whole team aligned |
+| Claudex Bridge | State keeper | Keeps receipts, context, and handoff synced |
+| Robby PA | Intake desk | Filters repeat asks and sends work to the right place |
+| Obsidian | Memory vault | Stores decisions, context, and truth |
 
 ## Selected proof
 
