@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/redlantern-studios-logo.png" alt="RedLantern Studios" width="180" />
+<img src="./assets/redlantern-mark.svg" alt="RedLantern Studios" width="112" />
 
 # Rory Semeah
 
