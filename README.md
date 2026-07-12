@@ -1,8 +1,12 @@
 <div align="center">
 
-# Rory Semeah Portfolio
+<img src="./assets/redlantern-mark.svg" alt="RedLantern Studios" width="112" />
 
-<p><strong>AI Technical Product Manager</strong> · RedLantern Studios</p>
+# Rory Semeah
+
+**AI Technical Product Manager · RedLantern Studios**
+
+<p>Executive level proof layer. Easy to scan. Easy to trust. Built to show value at face value. 🧭</p>
 
 <p>
   <a href="./index.html">Live page</a> ·
@@ -10,54 +14,50 @@
   <a href="./IP_BOUNDARY.md">IP boundary</a>
 </p>
 
-<p>
-  <img alt="Status" src="https://img.shields.io/badge/status-public%20proof%20layer-111111?style=for-the-badge&labelColor=111111&color=E84E2C" />
-  <img alt="Stack" src="https://img.shields.io/badge/stack-Next.js%20%7C%20Supabase%20%7C%20Vercel-111111?style=for-the-badge&labelColor=111111&color=E84E2C" />
-  <img alt="Focus" src="https://img.shields.io/badge/focus-product%20%2B%20AI%20delivery-111111?style=for-the-badge&labelColor=111111&color=E84E2C" />
-</p>
-
 </div>
 
-## Signal
+## At a glance
 
-This repo is the public showcase layer for Rory Semeah's work as an AI Technical Product Manager.
-It is built to show taste, outcomes, and execution quality without exposing proprietary code, prompts, schemas, or internal decisioning.
-
-## What it shows
-
-| Area | What visitors learn |
+| Area | Status |
 | --- | --- |
-| Product leadership | Shipping across enterprise systems, AI workflows, and operational platforms |
-| Delivery depth | Working end to end from requirements to launch and iteration |
-| Taste | Premium presentation, clean hierarchy, and direct communication |
-| IP discipline | Public proof without leaking solution details |
+| Role | AI Technical Product Manager |
+| Studio | RedLantern Studios |
+| Mode | Public proof, private moat |
+| Geography | San Diego, CA |
 
-## Featured work
+## KPI board
+
+| KPI | Meaning |
+| --- | --- |
+| 60 country rollout | Enterprise scale delivery across SAP and billing systems |
+| 20 plus countries | OpenAI powered automation shipped into live operations |
+| 4 live products | Studio, companion, learning, and career proof surfaces |
+| 0 unnecessary noise | Clean communication and simple presentation |
+
+## What I do
+
+I turn messy work into clear product systems.
+I work across enterprise delivery, AI enabled workflows, and public facing proof that helps people understand the value fast.
+
+## Selected proof
 
 ### By Red OS
 Multi tenant operations platform built on Next.js, Supabase, Vercel, and Anthropic API.
 
 ### Amina
-AI companion and productivity product with real shipping across web and iOS surfaces.
+AI companion and productivity product with web and iOS delivery.
 
 ### SwarmClaw
-Operational AI system for orchestration, routing, and multi agent execution across the studio stack.
+Operational AI system for orchestration, routing, and multi agent execution.
 
 ### Claudex Bridge
-Cross engine session state and handoff layer for keeping studio work synchronized.
+Cross engine session state and handoff layer for studio work.
 
 ### HireWire
-AI career platform with job matching, resume optimization, and confidence based routing logic.
+AI career platform for matching, resume intelligence, and routing.
 
 ### Authentic Hadith
 iOS app delivered through TestFlight QA and App Store approval.
-
-## Proof layer
-
-- 60 country invoice platform rollout across SAP S 4HANA and SAP BRIM
-- OpenAI powered workflow automation deployed across 20 plus countries
-- Live SaaS shipping across web, mobile, and internal operations
-- Clear boundaries around IP, internal logic, and sensitive implementation details
 
 ## Education
 
@@ -70,12 +70,28 @@ iOS app delivered through TestFlight QA and App Store approval.
 - Certified Scrum Master
 - CPMAI in progress
 
-## Explore
+## IP boundary
 
-- [Home page](./index.html)
-- [Selected case studies](./CASE_STUDIES.md)
-- [IP boundary](./IP_BOUNDARY.md)
+Public means public.
 
----
+This repo can show:
+- outcomes
+- screenshots
+- summaries
+- lessons
+- redacted case studies
 
-<p align="center"><strong>RedLantern Studios</strong> · premium public proof, no internal leakage</p>
+This repo cannot show:
+- proprietary code
+- private prompts
+- secrets
+- exact workflow logic
+- internal credentials
+
+## Contact
+
+- Website: [rorysemeah.com](https://rorysemeah.com)
+- LinkedIn: [linkedin.com/in/rory-semeah-30874555](https://linkedin.com/in/rory-semeah-30874555)
+- GitHub: [redlanternstudios](https://github.com/redlanternstudios)
+
+<p align="center"><strong>RedLantern Studios</strong> · simple on the surface, disciplined underneath</p>
