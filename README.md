@@ -6,7 +6,7 @@
 
 **AI Technical Product Manager · RedLantern Studios**
 
-<p>Executive proof layer. Fast to read. Easy to trust. Built like a clean dashboard. 🧭</p>
+<p>Executive proof layer. Fast to read. Easy to trust. Built for people who want the signal without the noise. 🧭</p>
 
 <p>
   <a href="./index.html">Live page</a> ·
@@ -35,7 +35,7 @@
 
 ## Claim register
 
-Every major claim here should read with the same frame.
+Short trust note for the lines below.
 
 | Claim | When | Where | Type | Follow up |
 | --- | --- | --- | --- | --- |
@@ -68,7 +68,7 @@ Rule: if a claim is not tied to a time, place, type, and follow up, it should be
 
 ## Story
 
-I build enterprise systems, AI enabled products, and workflow automation that ship in the real world.
+I build enterprise systems, products, and workflow automation that ship in the real world.
 The thread through all of it is the same: clarify the problem, protect the moat, ship with receipts.
 
 ## Resume spine
@@ -159,7 +159,7 @@ SwarmClaw is the RedLantern Build Team. When: 2025 to 2026. Where: RedLantern St
 
 - SAFe Scaled Agile Framework
 - Certified Scrum Master
-- CPMAI in progress
+- CPMAI complete
 
 ## IP boundary
 
