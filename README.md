@@ -74,18 +74,18 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 ## Resume spine
 
 ### Enterprise and AI delivery
-- Led a 60 country invoice platform rollout across SAP S 4HANA, SAP BRIM, Salesforce, and adjacent billing systems
-- Deployed OpenAI powered workflow automation across 20 plus countries
-- Partnered with engineering on AWS, Kubernetes, Terraform, REST APIs, GraphQL, CI CD, GitHub Actions, and Jenkins
-- Used SQL and Looker to watch KPI movement and surface workflow friction early
+- Led a 60 country invoice platform rollout across SAP S 4HANA, SAP BRIM, Salesforce, and adjacent billing systems. When: 2023 to 2024. Where: Ingram Micro. Type: delivery claim. Follow up: tied to the Ingram Micro case study and rollout proof.
+- Deployed OpenAI powered workflow automation across 20 plus countries. When: 2024. Where: Ingram Micro. Type: delivery claim. Follow up: tied to workflow automation proof and KPI notes.
+- Partnered with engineering on AWS, Kubernetes, Terraform, REST APIs, GraphQL, CI CD, GitHub Actions, and Jenkins. When: 2023 to 2024. Where: Ingram Micro and adjacent delivery teams. Type: collaboration claim. Follow up: keep it tied to stack level delivery notes.
+- Used SQL and Looker to watch KPI movement and surface workflow friction early. When: 2023 to 2024. Where: Ingram Micro. Type: operating claim. Follow up: keep it tied to KPI reviews and reporting artifacts.
 
 ### Products
-- ByRedLanternOS, multi tenant operations platform built on Next.js, Supabase, Vercel, and Anthropic API
-- Amina, AI companion and productivity product across web and iOS
-- SwarmClaw, the RedLantern Build Team and QuietBuild OS layer for orchestration, routing, and handoff
-- The Lantern Daily, a public facing studio publication for updates, proof, and narrative alignment
-- HireWire, AI career product with matching, resume intelligence, and confidence based routing
-- Authentic Hadith, iOS app shipped through TestFlight QA and App Store approval
+- ByRedLanternOS, multi tenant operations platform built on Next.js, Supabase, Vercel, and Anthropic API. When: 2025 to 2026. Where: RedLantern Studios. Type: product claim. Follow up: tie to studio proof and repo artifacts.
+- Amina, AI companion and productivity product across web and iOS. When: 2025 to 2026. Where: RedLantern Studios. Type: product claim. Follow up: tie to Amina proof surfaces.
+- SwarmClaw, the RedLantern Build Team and QuietBuild OS layer for orchestration, routing, and handoff. When: 2025 to 2026. Where: RedLantern Studios. Type: internal system claim. Follow up: tie to QuietBuild OS pages and receipts.
+- The Lantern Daily, a public facing studio publication for updates, proof, and narrative alignment. When: 2025 to 2026. Where: RedLantern Studios. Type: publication claim. Follow up: tie to public updates and narrative posts.
+- HireWire, AI career product with matching, resume intelligence, and confidence based routing. When: 2024 to 2026. Where: RedLantern Studios and HireWire. Type: product claim. Follow up: tie to public product proof.
+- Authentic Hadith, iOS app shipped through TestFlight QA and App Store approval. When: 2025 to 2026. Where: Authentic Hadith. Type: release claim. Follow up: tie to QA and submission evidence.
 
 ### Operating style
 - Translate business goals into clear user stories and acceptance criteria
@@ -95,7 +95,7 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 
 ## QuietBuild OS
 
-SwarmClaw is the RedLantern Build Team. It runs the quiet operator layer behind the studio, keeping routing, receipts, and handoff clean while the actual work moves forward.
+SwarmClaw is the RedLantern Build Team. When: 2025 to 2026. Where: RedLantern Studios. Type: internal system claim. Follow up: keep it tied to QuietBuild OS receipts, not just copy.
 
 ### What it does
 
