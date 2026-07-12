@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07080D">
+  <title>Rory Semeah | AI Technical Product Manager</title>
+  <style>
+    :root{
+      --black:#07080D;
+      --ink:#14161D;
+      --red:#D92532;
+      --cream:#F7F2EE;
+      --white:#FFFFFF;
+      --muted:#6B727C;
+      --line:#DDD6CF;
+      --shadow:0 28px 90px rgba(7,8,13,.18);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:Inter,Arial,sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 12% 0%, rgba(217,37,50,.12), transparent 26%),
+        radial-gradient(circle at 88% 12%, rgba(7,8,13,.08), transparent 22%),
+        linear-gradient(180deg, #faf7f3, var(--cream));
+      line-height:1.5;
+    }
+    .shell{max-width:1200px;margin:0 auto;padding:26px 20px 68px}
+    .hero{
+      position:relative;
+      overflow:hidden;
+      border-radius:34px;
+      background:
+        linear-gradient(180deg, rgba(7,8,13,.98), rgba(7,8,13,.88)),
+        url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><path d="M0 60h120M60 0v120" stroke="%23FFFFFF" stroke-opacity=".06" stroke-width="1"/></svg>');
+      color:var(--white);
+      padding:44px;
+      box-shadow:var(--shadow);
+      border:1px solid rgba(255,255,255,.08);
+    }
+    .hero:before{
+      content:"";
+      position:absolute;
+      inset:auto -6% -18% auto;
+      width:520px;height:520px;
+      background:radial-gradient(circle, rgba(217,37,50,.36), transparent 70%);
+      filter:blur(4px);
+      pointer-events:none;
+    }
+    .hero-top{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;position:relative;z-index:1}
+    .brand-lockup{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+    .brand-mark{width:58px;height:58px;border-radius:18px;background:linear-gradient(180deg, rgba(255,255,255,.1), rgba(255,255,255,.02)),radial-gradient(circle at 30% 30%, rgba(217,37,50,.9), rgba(217,37,50,.25));border:1px solid rgba(255,255,255,.14);box-shadow:0 16px 28px rgba(0,0,0,.24);display:grid;place-items:center;font-weight:800;letter-spacing:.08em;color:#fff;text-transform:uppercase}
+    .brand-text{display:grid;gap:2px}
+    .brand-text strong{font-size:14px;text-transform:uppercase;letter-spacing:.26em;color:#ff6e78;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    .brand-text span{font-size:15px;color:rgba(255,255,255,.76)}
+    .eyebrow{text-transform:uppercase;letter-spacing:.32em;color:#ff6e78;font:600 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:18px}
+    h1{font-size:clamp(44px, 8vw, 94px);line-height:.9;letter-spacing:-.05em;margin-bottom:16px;max-width:780px}
+    h1 .accent{color:var(--red)}
+    .sub{max-width:760px;font-size:18px;color:rgba(255,255,255,.84);margin-bottom:30px}
+    .meta{display:flex;flex-wrap:wrap;gap:10px;position:relative;z-index:1}
+    .pill{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.05);padding:10px 12px;border-radius:999px;font:600 12px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;text-transform:uppercase}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:20px}
+    .stat{grid-column:span 3;background:rgba(255,255,255,.76);border:1px solid var(--line);border-top:4px solid var(--red);border-radius:24px;padding:22px;box-shadow:0 16px 38px rgba(7,8,13,.08);backdrop-filter:blur(10px)}
+    .stat .num{font-size:38px;line-height:1;letter-spacing:-.04em;color:var(--ink);margin-bottom:10px;font-weight:800}
+    .stat .label{text-transform:uppercase;letter-spacing:.22em;color:var(--red);font:700 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:12px}
+    .stat p{color:#2b2d37;font-size:15px}
+    .section{margin-top:22px;background:rgba(255,255,255,.76);border:1px solid var(--line);border-radius:28px;padding:28px;box-shadow:0 14px 30px rgba(7,8,13,.05)}
+    .section h2{text-transform:uppercase;letter-spacing:.26em;color:var(--red);font:700 13px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:14px}
+    .featured{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:18px}
+    .project{grid-column:span 6;padding:24px;border-radius:24px;background:linear-gradient(180deg, rgba(255,255,255,.96), rgba(255,255,255,.84));border:1px solid var(--line);box-shadow:0 12px 26px rgba(7,8,13,.05);border-top:4px solid var(--red)}
+    .project h3{font-size:28px;line-height:1.05;margin-bottom:10px}
+    .project p{color:#2b2d37;font-size:16px}
+    .project .tag{display:inline-block;margin-bottom:14px;color:var(--red);text-transform:uppercase;letter-spacing:.24em;font:700 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace}
+    .logo-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .logo-chip{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font:600 12px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em}
+    .logo-chip img{width:16px;height:16px;display:block}
+    .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+    .shot{min-height:150px;border-radius:20px;border:1px solid var(--line);background:linear-gradient(180deg, rgba(7,8,13,.12), rgba(7,8,13,.02)),linear-gradient(135deg, #ffffff, #ece7e2);box-shadow:0 10px 22px rgba(7,8,13,.08);padding:18px;position:relative;overflow:hidden}
+    .shot:after{content:"";position:absolute;inset:auto -10px -22px auto;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle, rgba(217,37,50,.18), transparent 70%)}
+    .shot strong{display:block;font-size:16px;margin-bottom:8px}
+    .shot span{color:var(--muted);font-size:13px;display:block;max-width:180px}
+    .split{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;margin-top:18px}
+    .list{display:grid;gap:12px;margin-top:12px}
+    .row{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding-top:12px}
+    .row strong{font-size:15px}
+    .row span{color:var(--muted)}
+    .quote{padding:22px;border-radius:22px;background:linear-gradient(180deg, rgba(7,8,13,.96), rgba(7,8,13,.9));color:rgba(255,255,255,.84);border:1px solid rgba(255,255,255,.08);box-shadow:0 18px 36px rgba(7,8,13,.2)}
+    .quote h3{color:var(--white);font-size:28px;line-height:1.06;margin-bottom:12px}
+    .quote p{font-size:16px}
+    .footer{margin-top:22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;color:var(--muted);font-size:13px;padding:0 6px;text-transform:uppercase;letter-spacing:.08em;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    a{color:inherit;text-decoration:none}
+    @media (max-width: 980px){.stat,.project{grid-column:span 12}.gallery{grid-template-columns:1fr 1fr}.split{grid-template-columns:1fr}.hero{padding:28px}}
+    @media (max-width: 620px){.shell{padding:16px 14px 44px}.hero{border-radius:28px}.gallery{grid-template-columns:1fr}.stat .num{font-size:32px}.project h3,.quote h3{font-size:24px}.row{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="hero-top">
+        <div>
+          <div class="brand-lockup">
+            <img class="brand-mark" src="./assets/redlantern-studios-logo.png" alt="RedLantern Studios">
+            <div class="brand-text">
+              <strong>RedLantern Studios</strong>
+              <span>Public proof layer for a private edge</span>
+            </div>
+          </div>
+          <div class="eyebrow">RedLantern Studios Public Proof Layer</div>
+          <h1>Rory <span class="accent">Semeah</span></h1>
+          <p class="sub">AI Technical Product Manager shipping enterprise systems, AI enabled products, and operational tooling. This page is meant to feel like a clean executive dashboard, fast to read, calm under pressure, and clear about what matters.</p>
+          <div class="meta">
+            <div class="pill">AI Technical Product Manager</div>
+            <div class="pill">San Diego, CA</div>
+            <div class="pill">RedLantern Studios</div>
+            <div class="pill">Public dossier</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid" aria-label="featured stats">
+      <article class="stat"><div class="label">Rollout</div><div class="num">60</div><p>Countries reached by the invoice platform launch</p></article>
+      <article class="stat"><div class="label">Automation</div><div class="num">20+</div><p>Countries touched by OpenAI powered workflow work</p></article>
+      <article class="stat"><div class="label">Products</div><div class="num">5</div><p>Studio, companion, career, learning, and operations proof surfaces</p></article>
+      <article class="stat"><div class="label">Boundary</div><div class="num">0</div><p>Moat leakage. Public proof only.</p></article>
+    </section>
+
+    <section class="section">
+      <h2>Executive View</h2>
+      <div class="logo-row">
+        <span class="logo-chip"><img src="https://cdn.simpleicons.org/nextdotjs/111111" alt="">Next.js</span>
+        <span class="logo-chip"><img src="https://cdn.simpleicons.org/supabase/111111" alt="">Supabase</span>
+        <span class="logo-chip"><img src="https://cdn.simpleicons.org/vercel/111111" alt="">Vercel</span>
+        <span class="logo-chip"><img src="https://cdn.simpleicons.org/openai/111111" alt="">OpenAI</span>
+        <span class="logo-chip"><img src="https://cdn.simpleicons.org/anthropic/111111" alt="">Anthropic</span>
+        <span class="logo-chip"><img src="https://cdn.simpleicons.org/sap/111111" alt="">SAP</span>
+        <span class="logo-chip"><img src="https://cdn.simpleicons.org/salesforce/111111" alt="">Salesforce</span>
+        <span class="logo-chip"><img src="https://cdn.simpleicons.org/apple/111111" alt="">Apple</span>
+        <span class="logo-chip"><img src="https://cdn.simpleicons.org/linkedin/111111" alt="">LinkedIn</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Selected Work</h2>
+      <div class="featured">
+        <article class="project"><div class="tag">Studio OS</div><h3>RedLantern Studios</h3><p>Studio level operating systems, multi product coordination, and AI assisted workflows that keep work moving with receipts. Built for momentum, not theater.</p></article>
+        <article class="project"><div class="tag">Companion</div><h3>Amina</h3><p>Faith centered AI product with web and iOS surfaces, release discipline, and public proof artifacts. Warm product, serious delivery.</p></article>
+        <article class="project"><div class="tag">Learning</div><h3>Authentic Hadith</h3><p>Production learning platform with web and mobile delivery, QA evidence, and release readiness work. Straightforward, useful, and respectful.</p></article>
+        <article class="project"><div class="tag">Career</div><h3>HireWire</h3><p>AI career platform focused on matching, resume intelligence, and confidence based routing. Less noise, better signal.</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Screenshot Strip</h2>
+      <div class="gallery">
+        <div class="shot"><strong>Launch</strong><span>Hero shot or product landing proof goes here.</span></div>
+        <div class="shot"><strong>Flow</strong><span>One sharp visual of the main workflow.</span></div>
+        <div class="shot"><strong>Detail</strong><span>A screen that shows polish and product intent.</span></div>
+        <div class="shot"><strong>Outcome</strong><span>Release proof, dashboard, or result moment.</span></div>
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="section">
+        <h2>Proof</h2>
+        <div class="list">
+          <div class="row"><strong>Product judgment</strong><span>Frames the problem before building</span></div>
+          <div class="row"><strong>Systems thinking</strong><span>Works across stack, process, and release</span></div>
+          <div class="row"><strong>Delivery discipline</strong><span>Ships against real constraints</span></div>
+          <div class="row"><strong>Senior communication</strong><span>Explains value without hiding behind jargon</span></div>
+          <div class="row"><strong>IP awareness</strong><span>Knows what stays private</span></div>
+        </div>
+      </div>
+      <div class="quote">
+        <h3>Premium by design.<br>Private by default.</h3>
+        <p>This page is curated to show outcomes, taste, and leadership without exposing proprietary code, prompts, schemas, or internal logic.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Collaboration</h2>
+      <div class="list">
+        <div class="row"><strong>Website</strong><span><a href="https://rorysemeah.com">rorysemeah.com</a></span></div>
+        <div class="row"><strong>LinkedIn</strong><span><a href="https://linkedin.com/in/rory-semeah-30874555">linkedin.com/in/rory-semeah-30874555</a></span></div>
+        <div class="row"><strong>GitHub</strong><span><a href="https://github.com/redlanternstudios">github.com/redlanternstudios</a></span></div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div>Build in Public. Operate in Truth.</div>
+      <div>RedLantern Studios · Est. 2025 · By Red, LLC</div>
+      <div>AI Technical Product Manager</div>
+    </div>
+  </main>
+</body>
+</html>

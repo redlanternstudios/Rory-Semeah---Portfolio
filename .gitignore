@@ -1,0 +1,8 @@
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.mov
+*.mp4
+.DS_Store
+!assets/redlantern-studios-logo.png
