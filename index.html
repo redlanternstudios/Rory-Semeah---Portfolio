@@ -39,15 +39,7 @@
       box-shadow:var(--shadow);
       border:1px solid rgba(255,255,255,.08);
     }
-    .hero:before{
-      content:"";
-      position:absolute;
-      inset:auto -6% -18% auto;
-      width:520px;height:520px;
-      background:radial-gradient(circle, rgba(217,37,50,.36), transparent 70%);
-      filter:blur(4px);
-      pointer-events:none;
-    }
+    .hero:before{content:"";position:absolute;inset:auto -6% -18% auto;width:520px;height:520px;background:radial-gradient(circle, rgba(217,37,50,.36), transparent 70%);filter:blur(4px);pointer-events:none}
     .hero-top{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;position:relative;z-index:1}
     .brand-lockup{display:flex;align-items:center;gap:14px;margin-bottom:18px}
     .brand-mark{width:58px;height:58px;border-radius:18px;background:linear-gradient(180deg, rgba(255,255,255,.1), rgba(255,255,255,.02)),radial-gradient(circle at 30% 30%, rgba(217,37,50,.9), rgba(217,37,50,.25));border:1px solid rgba(255,255,255,.14);box-shadow:0 16px 28px rgba(0,0,0,.24);display:grid;place-items:center;font-weight:800;letter-spacing:.08em;color:#fff;text-transform:uppercase}
@@ -72,6 +64,9 @@
     .project h3{font-size:28px;line-height:1.05;margin-bottom:10px}
     .project p{color:#2b2d37;font-size:16px}
     .project .tag{display:inline-block;margin-bottom:14px;color:var(--red);text-transform:uppercase;letter-spacing:.24em;font:700 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace}
+    .logo-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .logo-chip{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font:600 12px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em}
+    .logo-chip img{width:16px;height:16px;display:block}
     .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
     .shot{min-height:150px;border-radius:20px;border:1px solid var(--line);background:linear-gradient(180deg, rgba(7,8,13,.12), rgba(7,8,13,.02)),linear-gradient(135deg, #ffffff, #ece7e2);box-shadow:0 10px 22px rgba(7,8,13,.08);padding:18px;position:relative;overflow:hidden}
     .shot:after{content:"";position:absolute;inset:auto -10px -22px auto;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle, rgba(217,37,50,.18), transparent 70%)}
