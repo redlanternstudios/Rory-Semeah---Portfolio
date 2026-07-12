@@ -18,8 +18,8 @@ The studio layer that keeps multiple products moving with one shared standard.
 Product framing, operating structure, and public proof surfaces that keep the work readable.
 
 ### Public proof
-- premium portfolio layout
-- claim register with provenance
+- portfolio layout
+- claim register
 - QuietBuild OS and agent roster
 
 ### Private boundary
@@ -37,7 +37,7 @@ Product framing, operating structure, and public proof surfaces that keep the wo
 | Follow up | Tie to QuietBuild OS pages and receipts |
 
 ### What it is
-The RedLantern Build Team. It routes work, keeps state clean, and moves tasks through review without creating noise.
+The RedLantern Build Team. It routes work, keeps state clean, and moves tasks through review.
 
 ### What I handled
 The public story, the operating loop, and the roster language that makes the system easy to understand.
@@ -62,10 +62,10 @@ The public story, the operating loop, and the roster language that makes the sys
 | Follow up | Tie to public updates and narrative posts |
 
 ### What it is
-The public studio publication used to keep the outside story sharp, current, and consistent.
+The public studio publication used to keep the outside story current and consistent.
 
 ### What I handled
-Positioning, editorial shape, and the difference between public proof and private work.
+Positioning, editorial shape, and the difference between public and private work.
 
 ### Public proof
 - updates
@@ -90,7 +90,7 @@ Positioning, editorial shape, and the difference between public proof and privat
 A companion product with web and iOS surfaces.
 
 ### What I handled
-Product framing, release discipline, and the story around a polished public surface.
+Product framing, release discipline, and the public surface.
 
 ### Public proof
 - screenshots
@@ -112,10 +112,10 @@ Product framing, release discipline, and the story around a polished public surf
 | Follow up | Tie to product proof and showcase pages |
 
 ### What it is
-An AI career product focused on matching, resume intelligence, and confidence based routing.
+An AI career product focused on matching and resume intelligence.
 
 ### What I handled
-Product framing, signal quality, and the public story around career support.
+Product framing and the public story around career support.
 
 ### Public proof
 - product writeup
@@ -140,7 +140,7 @@ Product framing, signal quality, and the public story around career support.
 An iOS learning app delivered through test flight, QA, and release work.
 
 ### What I handled
-Release readiness, presentation, and the public proof that it shipped cleanly.
+Release readiness and public proof that it shipped cleanly.
 
 ### Public proof
 - screenshots
@@ -162,7 +162,7 @@ Release readiness, presentation, and the public proof that it shipped cleanly.
 | Follow up | Tie to rollout and automation proof |
 
 ### What it is
-The enterprise delivery chapter that includes the 60 country rollout and the OpenAI automation work.
+The enterprise delivery chapter that includes the 60 country rollout and the automation work.
 
 ### What I handled
 Delivery coordination, KPI visibility, and cross team execution.

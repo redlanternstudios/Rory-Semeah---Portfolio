@@ -6,7 +6,7 @@
 
 **AI Technical Product Manager · RedLantern Studios**
 
-<p>Executive proof layer. Fast to read. Easy to trust. Built for people who want the signal without the noise. 🧭</p>
+<p>Executive proof layer. Direct, readable, and tied to specific work. 🧭</p>
 
 <p>
   <a href="./index.html">Live page</a> ·
@@ -53,36 +53,36 @@ Rule: if a claim is not tied to a time, place, type, and follow up, it should be
 | KPI | What it says |
 | --- | --- |
 | 60 country rollout | Enterprise scale delivery across SAP and billing systems |
-| 20 plus countries | OpenAI powered automation shipped into live operations |
-| 1000 plus tickets cleared | Support workflow redesign that got real work unstuck |
-| 4 live products | Studio, companion, learning, and career proof surfaces |
+| 20 plus countries | Workflow automation shipped into live operations |
+| 1000 plus tickets cleared | Support workflow redesign reduced backlog |
+| 4 live products | Studio, companion, learning, and career products |
 
 ### Delivery signal
 
 | Area | Signal |
 | --- | --- |
 | Enterprise rollout | 60 country launch across SAP and billing systems |
-| AI automation | 20 plus countries reached with OpenAI workflows |
-| Support recovery | 1000 plus tickets cleared by workflow redesign |
-| Public proof | 4 live products with a private moat |
+| AI automation | Workflow automation reached 20 plus countries |
+| Support recovery | Workflow redesign reduced backlog |
+| Public proof | 4 live products |
 
 ## Showcase index
 
 | Showcase | What it covers |
 | --- | --- |
-| [RedLantern Studios](./CASE_STUDIES.md#redlantern-studios) | Studio layer, operating shape, and public proof |
-| [SwarmClaw](./CASE_STUDIES.md#swarmclaw) | RedLantern Build Team and QuietBuild OS |
-| [The Lantern Daily](./CASE_STUDIES.md#the-lantern-daily) | Public publication and narrative alignment |
-| [Amina](./CASE_STUDIES.md#amina) | Companion product and release discipline |
-| [HireWire](./CASE_STUDIES.md#hirewire) | Career product and signal based routing |
-| [Authentic Hadith](./CASE_STUDIES.md#authentic-hadith) | iOS release and proof surfaces |
-| [Ingram Micro](./CASE_STUDIES.md#ingram-micro) | Enterprise rollout and workflow automation |
-| [loanDepot](./CASE_STUDIES.md#loandepot) | Support workflow cleanup and operations |
+| [RedLantern Studios](./CASE_STUDIES.md#redlantern-studios) | Studio operating layer |
+| [SwarmClaw](./CASE_STUDIES.md#swarmclaw) | RedLantern Build Team |
+| [The Lantern Daily](./CASE_STUDIES.md#the-lantern-daily) | Public publication |
+| [Amina](./CASE_STUDIES.md#amina) | Companion product |
+| [HireWire](./CASE_STUDIES.md#hirewire) | Career product |
+| [Authentic Hadith](./CASE_STUDIES.md#authentic-hadith) | iOS release |
+| [Ingram Micro](./CASE_STUDIES.md#ingram-micro) | Enterprise rollout |
+| [loanDepot](./CASE_STUDIES.md#loandepot) | Support workflow cleanup |
 
 ## Story
 
-I build enterprise systems, products, and workflow automation that ship in the real world.
-The thread through all of it is the same: clarify the problem, protect the moat, ship with receipts.
+I build enterprise systems, products, and workflow automation.
+The pattern is the same across the work: define the problem, ship the result, keep the boundary clear.
 
 ## Resume spine
 
@@ -93,11 +93,11 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 - Used SQL and Looker to watch KPI movement and surface workflow friction early. When: 2023 to 2024. Where: Ingram Micro. Type: operating claim. Follow up: keep it tied to KPI reviews and reporting artifacts.
 
 ### Products
-- ByRedLanternOS, multi tenant operations platform built on Next.js, Supabase, Vercel, and Anthropic API. When: 2025 to 2026. Where: RedLantern Studios. Type: product claim. Follow up: tie to studio proof and repo artifacts.
-- Amina, AI companion and productivity product across web and iOS. When: 2025 to 2026. Where: RedLantern Studios. Type: product claim. Follow up: tie to Amina proof surfaces.
-- SwarmClaw, the RedLantern Build Team and QuietBuild OS layer for orchestration, routing, and handoff. When: 2025 to 2026. Where: RedLantern Studios. Type: internal system claim. Follow up: tie to QuietBuild OS pages and receipts.
-- The Lantern Daily, a public facing studio publication for updates, proof, and narrative alignment. When: 2025 to 2026. Where: RedLantern Studios. Type: publication claim. Follow up: tie to public updates and narrative posts.
-- HireWire, AI career product with matching, resume intelligence, and confidence based routing. When: 2024 to 2026. Where: RedLantern Studios and HireWire. Type: product claim. Follow up: tie to public product proof.
+- ByRedLanternOS, multi tenant operations platform. When: 2025 to 2026. Where: RedLantern Studios. Type: product claim. Follow up: tie to studio proof and repo artifacts.
+- Amina, companion and productivity product across web and iOS. When: 2025 to 2026. Where: RedLantern Studios. Type: product claim. Follow up: tie to Amina proof surfaces.
+- SwarmClaw, the RedLantern Build Team and QuietBuild OS layer. When: 2025 to 2026. Where: RedLantern Studios. Type: internal system claim. Follow up: tie to QuietBuild OS pages and receipts.
+- The Lantern Daily, studio publication for updates and proof. When: 2025 to 2026. Where: RedLantern Studios. Type: publication claim. Follow up: tie to public updates and narrative posts.
+- HireWire, career product with matching and resume intelligence. When: 2024 to 2026. Where: RedLantern Studios and HireWire. Type: product claim. Follow up: tie to public product proof.
 - Authentic Hadith, iOS app shipped through TestFlight QA and App Store approval. When: 2025 to 2026. Where: Authentic Hadith. Type: release claim. Follow up: tie to QA and submission evidence.
 
 ### Operating style
@@ -108,20 +108,20 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 
 ## QuietBuild OS
 
-SwarmClaw is the RedLantern Build Team. When: 2025 to 2026. Where: RedLantern Studios. Type: internal system claim. Follow up: keep it tied to QuietBuild OS receipts, not just copy.
+SwarmClaw is the RedLantern Build Team. When: 2025 to 2026. Where: RedLantern Studios. Type: internal system claim. Follow up: tie it to QuietBuild OS receipts.
 
 ### What it does
 
 - routes requests to the right lane
-- keeps state and decisions receipted
+- keeps state and decisions recorded
 - reduces repeat questions and duplicate work
-- protects the public moat while keeping momentum high
+- protects public details
 
 ### Agent roster
 
 | Agent | Role | Style |
 | --- | --- | --- |
-| SwarmClaw | Build lead | Directs the studio and makes the next move obvious |
+| SwarmClaw | Build lead | Directs the studio and keeps work moving |
 | Claudex Bridge | State keeper | Keeps receipts, context, and handoff synced |
 | Robby PA | Intake desk | Filters repeat asks and sends work to the right place |
 | Obsidian | Memory vault | Stores decisions, context, and truth |
