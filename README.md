@@ -67,7 +67,7 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 ### Products
 - ByRedLanternOS, multi tenant operations platform built on Next.js, Supabase, Vercel, and Anthropic API
 - Amina, AI companion and productivity product across web and iOS
-- SwarmClaw, multi agent orchestration and routing system
+- SwarmClaw, the QuietBuild OS layer for multi agent orchestration, routing, and handoff
 - HireWire, AI career product with matching, resume intelligence, and confidence based routing
 - Authentic Hadith, iOS app shipped through TestFlight QA and App Store approval
 
@@ -76,6 +76,19 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 - Turn multi step work into simple operator flows
 - Keep communication plain, direct, and useful
 - Keep IP boundaries tight
+
+## QuietBuild OS
+
+SwarmClaw is the coordination layer that keeps the studio moving without chaos. It is the quiet operator behind the scenes, used for routing, receipts, and clean handoff between work streams.
+
+### Agent roster
+
+| Agent | Role | Style |
+| --- | --- | --- |
+| SwarmClaw | Orchestrator | Routes work to the right lane |
+| Claudex Bridge | Memory and handoff | Keeps state synced and receipted |
+| Robby PA | Intake and dispatch | Filters repeat asks and sends them to the right place |
+| Obsidian | Working memory | Stores decisions, context, and truth |
 
 ## Selected proof
 
@@ -100,6 +113,7 @@ The thread through all of it is the same: clarify the problem, protect the moat,
   <img alt="Terraform" src="https://img.shields.io/badge/Terraform-111111?style=for-the-badge&logo=terraform&logoColor=white" />
   <img alt="GitHub" src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" />
   <img alt="Apple" src="https://img.shields.io/badge/Apple-111111?style=for-the-badge&logo=apple&logoColor=white" />
+  <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-111111?style=for-the-badge&logo=obsidian&logoColor=7C3AED" />
   <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white" />
 </p>
 
