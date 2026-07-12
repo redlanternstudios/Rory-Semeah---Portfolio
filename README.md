@@ -42,14 +42,14 @@
 | 1000 plus tickets cleared | Support workflow redesign that got real work unstuck |
 | 4 live products | Studio, companion, learning, and career proof surfaces |
 
-### Delivery bars
+### Delivery signal
 
 | Area | Signal |
 | --- | --- |
-| Enterprise rollout | ██████████ 100 |
-| AI automation | █████████░ 90 |
-| Product breadth | ████████░░ 80 |
-| IP discipline | ██████████ 100 |
+| Enterprise rollout | 60 country launch across SAP and billing systems |
+| AI automation | 20 plus countries reached with OpenAI workflows |
+| Support recovery | 1000 plus tickets cleared by workflow redesign |
+| Public proof | 4 live products with a private moat |
 
 ## Story
 
