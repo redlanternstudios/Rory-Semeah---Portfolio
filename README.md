@@ -33,6 +33,21 @@
 | Geography | San Diego, CA | 🌴 Based in market |
 | Mode | Public proof, private moat | 🔒 IP protected |
 
+## Claim register
+
+Every major claim here should read with the same frame.
+
+| Claim | When | Where | Type | Follow up |
+| --- | --- | --- | --- | --- |
+| 60 country invoice rollout | 2023 to 2024 | Ingram Micro | Delivery claim | Keep tied to the Ingram Micro case study |
+| OpenAI automation across 20 plus countries | 2024 | Ingram Micro | Delivery claim | Keep tied to workflow automation proof |
+| 1000 plus tickets cleared | 2019 to 2022 | loanDepot | Operational claim | Keep tied to support workflow notes |
+| Authentic Hadith shipped to App Store | 2025 to 2026 | Authentic Hadith | Release claim | Keep tied to QA and submission evidence |
+| SwarmClaw build team | 2025 to 2026 | RedLantern Studios | Internal system claim | Keep tied to QuietBuild OS pages and receipts |
+| The Lantern Daily | 2025 to 2026 | RedLantern Studios | Publication claim | Keep tied to public updates and narrative posts |
+
+Rule: if a claim is not tied to a time, place, type, and follow up, it should be rewritten or marked as unknown.
+
 ## KPI board
 
 | KPI | What it says |
