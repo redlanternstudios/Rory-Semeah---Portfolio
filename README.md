@@ -68,6 +68,7 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 - ByRedLanternOS, multi tenant operations platform built on Next.js, Supabase, Vercel, and Anthropic API
 - Amina, AI companion and productivity product across web and iOS
 - SwarmClaw, the RedLantern Build Team and QuietBuild OS layer for orchestration, routing, and handoff
+- The Lantern Daily, a public facing studio publication for updates, proof, and narrative alignment
 - HireWire, AI career product with matching, resume intelligence, and confidence based routing
 - Authentic Hadith, iOS app shipped through TestFlight QA and App Store approval
 
