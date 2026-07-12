@@ -81,14 +81,31 @@ The thread through all of it is the same: clarify the problem, protect the moat,
 
 SwarmClaw is the RedLantern Build Team. It runs the quiet operator layer behind the studio, keeping routing, receipts, and handoff clean while the actual work moves forward.
 
+### What it does
+
+- routes requests to the right lane
+- keeps state and decisions receipted
+- reduces repeat questions and duplicate work
+- protects the public moat while keeping momentum high
+
 ### Agent roster
 
 | Agent | Role | Style |
 | --- | --- | --- |
-| SwarmClaw | Build lead | Routes work to the right lane and keeps the whole team aligned |
+| SwarmClaw | Build lead | Directs the studio and makes the next move obvious |
 | Claudex Bridge | State keeper | Keeps receipts, context, and handoff synced |
 | Robby PA | Intake desk | Filters repeat asks and sends work to the right place |
 | Obsidian | Memory vault | Stores decisions, context, and truth |
+| Human review | Approval lane | Handles sensitive calls and final judgment |
+
+### Operating loop
+
+1. intake
+2. route
+3. build
+4. review
+5. receipt
+6. handoff
 
 ## Selected proof
 

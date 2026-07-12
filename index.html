@@ -73,6 +73,8 @@
     .project p{color:#2b2d37;font-size:16px}
     .project .tag{display:inline-block;margin-bottom:14px;color:var(--red);text-transform:uppercase;letter-spacing:.24em;font:700 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace}
     .stack-note{margin-top:10px;font-size:13px;color:var(--muted)}
+    .steps{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:14px}
+    .step{padding:12px 10px;border-radius:14px;background:rgba(7,8,13,.04);border:1px solid var(--line);text-align:center;font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:#2b2d37}
     .logo-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
     .logo-chip{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font:600 12px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em}
     .logo-chip img{width:16px;height:16px;display:block}
@@ -146,8 +148,8 @@
     <section class="section">
       <h2>Selected Work</h2>
       <div class="featured">
-        <article class="project"><div class="tag">Studio OS</div><h3>RedLantern Studios</h3><p>Studio level operating systems, multi product coordination, and AI assisted workflows that keep work moving with receipts. Built for momentum, not theater.</p></article>
-        <article class="project"><div class="tag">QuietBuild OS</div><h3>SwarmClaw</h3><p>RedLantern Build Team for routing, handoff, and clean execution across the studio stack. It keeps the work moving without noise or confusion.</p><div class="stack-note">Roster: SwarmClaw leads the build, Claudex Bridge keeps state, Robby PA handles intake, Obsidian stores truth.</div></article>
+        <article class="project"><div class="tag">Studio OS</div><h3>RedLantern Studios</h3><p>Studio level operating systems, multi product coordination, and AI assisted workflows that keep work moving with receipts. Built for momentum, not theater.</p><div class="stack-note">The studio is the umbrella. SwarmClaw runs the build team underneath it.</div></article>
+        <article class="project"><div class="tag">QuietBuild OS</div><h3>SwarmClaw</h3><p>RedLantern Build Team for routing, handoff, and clean execution across the studio stack. It keeps the work moving without noise or confusion.</p><div class="stack-note">Roster: SwarmClaw leads the build, Claudex Bridge keeps state, Robby PA handles intake, Obsidian stores truth.</div><div class="steps"><div class="step">Intake</div><div class="step">Route</div><div class="step">Build</div><div class="step">Review</div><div class="step">Receipt</div><div class="step">Handoff</div></div></article>
         <article class="project"><div class="tag">Companion</div><h3>Amina</h3><p>Faith centered AI product with web and iOS surfaces, release discipline, and public proof artifacts. Warm product, serious delivery.</p></article>
         <article class="project"><div class="tag">Learning</div><h3>Authentic Hadith</h3><p>Production learning platform with web and mobile delivery, QA evidence, and release readiness work. Straightforward, useful, and respectful.</p></article>
         <article class="project"><div class="tag">Career</div><h3>HireWire</h3><p>AI career platform focused on matching, resume intelligence, and confidence based routing. Less noise, better signal.</p></article>
