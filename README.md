@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/redlantern-mark.svg" alt="RedLantern Studios" width="180" />
+<img src="https://raw.githubusercontent.com/redlanternstudios/Rory-Semeah---Portfolio/main/assets/redlantern-mark.svg" alt="RedLantern Studios" width="180" />
 
 # Rory Semeah
 
