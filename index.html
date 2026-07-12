@@ -6,12 +6,54 @@
   <meta name="theme-color" content="#07080D">
   <title>Rory Semeah | AI Technical Product Manager</title>
   <style>
-    :root{--black:#07080D;--ink:#14161D;--red:#D92532;--cream:#F7F2EE;--white:#FFFFFF;--muted:#6B727C;--line:#DDD6CF;--shadow:0 28px 90px rgba(7,8,13,.18)}
+    :root{
+      --black:#07080D;
+      --ink:#14161D;
+      --red:#D92532;
+      --cream:#F7F2EE;
+      --white:#FFFFFF;
+      --muted:#6B727C;
+      --line:#DDD6CF;
+      --shadow:0 28px 90px rgba(7,8,13,.18);
+    }
     *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:Inter,Arial,sans-serif;color:var(--ink);background:radial-gradient(circle at 12% 0%, rgba(217,37,50,.12), transparent 26%),radial-gradient(circle at 88% 12%, rgba(7,8,13,.08), transparent 22%),linear-gradient(180deg,#faf7f3,var(--cream));line-height:1.5}
+    body{
+      font-family:Inter,Arial,sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 12% 0%, rgba(217,37,50,.12), transparent 26%),
+        radial-gradient(circle at 88% 12%, rgba(7,8,13,.08), transparent 22%),
+        linear-gradient(180deg, #faf7f3, var(--cream));
+      line-height:1.5;
+    }
     .shell{max-width:1200px;margin:0 auto;padding:26px 20px 68px}
-    .hero{position:relative;overflow:hidden;border-radius:34px;background:linear-gradient(180deg, rgba(7,8,13,.98), rgba(7,8,13,.88)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><path d="M0 60h120M60 0v120" stroke="%23FFFFFF" stroke-opacity=".06" stroke-width="1"/></svg>');color:var(--white);padding:44px;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.08)}
-    .hero:before{content:"";position:absolute;inset:auto -6% -18% auto;width:520px;height:520px;background:radial-gradient(circle, rgba(217,37,50,.36), transparent 70%);filter:blur(4px);pointer-events:none}
+    .hero{
+      position:relative;
+      overflow:hidden;
+      border-radius:34px;
+      background:
+        linear-gradient(180deg, rgba(7,8,13,.98), rgba(7,8,13,.88)),
+        url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120"><path d="M0 60h120M60 0v120" stroke="%23FFFFFF" stroke-opacity=".06" stroke-width="1"/></svg>');
+      color:var(--white);
+      padding:44px;
+      box-shadow:var(--shadow);
+      border:1px solid rgba(255,255,255,.08);
+    }
+    .hero:before{
+      content:"";
+      position:absolute;
+      inset:auto -6% -18% auto;
+      width:520px;height:520px;
+      background:radial-gradient(circle, rgba(217,37,50,.36), transparent 70%);
+      filter:blur(4px);
+      pointer-events:none;
+    }
+    .hero-top{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;position:relative;z-index:1}
+    .brand-lockup{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+    .brand-mark{width:58px;height:58px;border-radius:18px;background:linear-gradient(180deg, rgba(255,255,255,.1), rgba(255,255,255,.02)),radial-gradient(circle at 30% 30%, rgba(217,37,50,.9), rgba(217,37,50,.25));border:1px solid rgba(255,255,255,.14);box-shadow:0 16px 28px rgba(0,0,0,.24);display:grid;place-items:center;font-weight:800;letter-spacing:.08em;color:#fff;text-transform:uppercase}
+    .brand-text{display:grid;gap:2px}
+    .brand-text strong{font-size:14px;text-transform:uppercase;letter-spacing:.26em;color:#ff6e78;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    .brand-text span{font-size:15px;color:rgba(255,255,255,.76)}
     .eyebrow{text-transform:uppercase;letter-spacing:.32em;color:#ff6e78;font:600 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:18px}
     h1{font-size:clamp(44px, 8vw, 94px);line-height:.9;letter-spacing:-.05em;margin-bottom:16px;max-width:780px}
     h1 .accent{color:var(--red)}
@@ -52,31 +94,42 @@
 <body>
   <main class="shell">
     <section class="hero">
-      <div class="eyebrow">RedLantern Studios Public Proof Layer</div>
-      <h1>Rory <span class="accent">Semeah</span></h1>
-      <p class="sub">AI Technical Product Manager shipping enterprise systems, AI enabled products, and operational tooling with a public face that stays sharp while the actual edge stays private.</p>
-      <div class="meta">
-        <div class="pill">AI Technical Product Manager</div>
-        <div class="pill">San Diego, CA</div>
-        <div class="pill">RedLantern Studios</div>
-        <div class="pill">Public dossier</div>
+      <div class="hero-top">
+        <div>
+          <div class="brand-lockup">
+            <div class="brand-mark">RL</div>
+            <div class="brand-text">
+              <strong>RedLantern Studios</strong>
+              <span>Public proof layer for a private edge</span>
+            </div>
+          </div>
+          <div class="eyebrow">RedLantern Studios Public Proof Layer</div>
+          <h1>Rory <span class="accent">Semeah</span></h1>
+          <p class="sub">AI Technical Product Manager shipping enterprise systems, AI enabled products, and operational tooling. This page is meant to feel like a clean executive dashboard, fast to read, calm under pressure, and clear about what matters.</p>
+          <div class="meta">
+            <div class="pill">AI Technical Product Manager</div>
+            <div class="pill">San Diego, CA</div>
+            <div class="pill">RedLantern Studios</div>
+            <div class="pill">Public dossier</div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="grid" aria-label="featured stats">
-      <article class="stat"><div class="label">Scope</div><div class="num">4</div><p>Featured products and operating surfaces</p></article>
-      <article class="stat"><div class="label">Mode</div><div class="num">2026</div><p>Premium visual presentation standard</p></article>
-      <article class="stat"><div class="label">Boundary</div><div class="num">IP</div><p>Public proof without leaking the moat</p></article>
-      <article class="stat"><div class="label">Role</div><div class="num">PM</div><p>Principal level product framing and delivery</p></article>
+      <article class="stat"><div class="label">Rollout</div><div class="num">60</div><p>Countries reached by the invoice platform launch</p></article>
+      <article class="stat"><div class="label">Automation</div><div class="num">20+</div><p>Countries touched by OpenAI powered workflow work</p></article>
+      <article class="stat"><div class="label">Products</div><div class="num">4</div><p>Featured live products and public proof surfaces</p></article>
+      <article class="stat"><div class="label">Boundary</div><div class="num">0</div><p>Moat leakage. Public proof only.</p></article>
     </section>
 
     <section class="section">
       <h2>Featured Work</h2>
       <div class="featured">
-        <article class="project"><div class="tag">Studio OS</div><h3>RedLantern Studios</h3><p>Studio level operating systems, multi product coordination, and AI assisted workflows that keep work moving with receipts.</p></article>
-        <article class="project"><div class="tag">Companion</div><h3>Amina</h3><p>Faith centered AI product with web and iOS surfaces, release discipline, and public proof artifacts.</p></article>
-        <article class="project"><div class="tag">Learning</div><h3>Authentic Hadith</h3><p>Production learning platform with web and mobile delivery, QA evidence, and release readiness work.</p></article>
-        <article class="project"><div class="tag">Career</div><h3>HireWire</h3><p>AI career platform focused on matching, resume intelligence, and confidence based routing.</p></article>
+        <article class="project"><div class="tag">Studio OS</div><h3>RedLantern Studios</h3><p>Studio level operating systems, multi product coordination, and AI assisted workflows that keep work moving with receipts. Built for momentum, not theater.</p></article>
+        <article class="project"><div class="tag">Companion</div><h3>Amina</h3><p>Faith centered AI product with web and iOS surfaces, release discipline, and public proof artifacts. Warm product, serious delivery.</p></article>
+        <article class="project"><div class="tag">Learning</div><h3>Authentic Hadith</h3><p>Production learning platform with web and mobile delivery, QA evidence, and release readiness work. Straightforward, useful, and respectful.</p></article>
+        <article class="project"><div class="tag">Career</div><h3>HireWire</h3><p>AI career platform focused on matching, resume intelligence, and confidence based routing. Less noise, better signal.</p></article>
       </div>
     </section>
 
