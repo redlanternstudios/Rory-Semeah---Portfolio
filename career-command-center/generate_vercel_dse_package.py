@@ -332,7 +332,7 @@ def build_letter():
     set_spacing(fp, before=0, after=0, line=1.0)
     add_run(fp, "Rory Semeah | Vercel Developer Success Engineer", size=8.5, color=SOFT)
 
-    add_job_title_block(doc, ROLE.title, "Company directed cover letter")
+    add_job_title_block(doc, ROLE.title, f"{ROLE.company} cover letter")
     add_credential_line(doc, f"{ROLE.city} | 442-461-3093 | roryleesemeah@icloud.com | rorysemeah.com")
     add_credential_line(doc, f"{TODAY.strftime('%B %d, %Y')}")
     add_para(doc, "Vercel Hiring Team", size=10.5, bold=True, color=INK, after=0)
@@ -362,7 +362,6 @@ def build_packet():
     set_spacing(fp, before=0, after=0, line=1.0)
     add_run(fp, "Candidate Portfolio Packet", size=8.5, color=SOFT)
 
-    add_kicker(doc, "Candidate Portfolio Packet")
     title = doc.add_paragraph()
     set_spacing(title, before=0, after=2, line=1.0)
     add_run(title, "Rory Semeah", size=28, bold=True, color=INK)
@@ -474,7 +473,6 @@ def append_portfolio_sections(doc):
 def build_candidate_portfolio():
     doc = build_resume()
     doc.add_page_break()
-    add_kicker(doc, "Candidate Portfolio")
     p = doc.add_paragraph()
     set_spacing(p, before=0, after=2, line=1.0)
     add_run(p, "Rory Semeah", size=26, bold=True, color=INK)
