@@ -5,6 +5,7 @@ from datetime import date
 from pathlib import Path
 import os
 import subprocess
+import shutil
 
 from PIL import Image, ImageDraw, ImageFont
 from docx import Document
@@ -512,9 +513,24 @@ def render_docx_to_pdf(docx_path: Path, out_dir: Path):
     subprocess.run(["python3", *cmd[1:]], check=True, env=env)
 
 
-def main():
+def clear_previous_outputs():
+    if OUTPUT.exists():
+        for item in OUTPUT.iterdir():
+            if item.name == ".gitkeep":
+                continue
+            if item.is_dir():
+                shutil.rmtree(item)
+            else:
+                item.unlink()
     OUTPUT.mkdir(parents=True, exist_ok=True)
-    (OUTPUT / "renders").mkdir(parents=True, exist_ok=True)
+    RENDER_ROOT.mkdir(parents=True, exist_ok=True)
+    for item in Path("/private/tmp").glob("vercel_*_check*"):
+        if item.is_dir():
+            shutil.rmtree(item)
+
+
+def main():
+    clear_previous_outputs()
 
     resume_doc = build_resume()
     letter_doc = build_letter()
